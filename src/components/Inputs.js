@@ -66,14 +66,8 @@ const Table = () => {
   return (
     <div className="container">
       <InputField
-        tableData={tableData}
-        settableData={settableData}
         inputData={inputData}
-        setInputData={setInputData}
-        index={index}
-        setIndex={setIndex}
         bolin={bolin}
-        setBolin={setBolin}
         data={data}
         addInputData={addInputData}
         updateinfo={updateinfo}
